@@ -1,0 +1,5 @@
+marca- 1 adidas 2-nike 3-olympikus
+tipo 1-masc 2-feminino 3-infantil
+categoria 1-calcados 2-roupas 3-acessorios
+
+
