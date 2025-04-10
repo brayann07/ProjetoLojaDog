@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body id='bodyhome' onload="slide1()">
+    <div id="cabecariohome">
+        <div class="elementosinicio">
+            
+            <img src="fotossite/cabecarioimagem.png" class="fotocabecariocachorro">
+        </div>
+
+        <div class="elementosdomeio">
+            <br><br>
+            <input type="text" name="pesquisarhome" class="inputdepesquisaHome" placeholder="O que você deseja pesquisar..."/>
+            <input type="submit" name="botaopesquisar" class="botaopesquisar" value="Pesquisar"> 
+        </div>
+
+        <div class="elementosdofim">
+            <br><br><br>
+            <a href="login.html"><button class="fimtextocabecariobotao">Entrar</button></a>
+        </div>
+    </div>
+   <!--  Meio do html -->
+     <br><br><br><br><br><br><br>
+     <div id="quadradomeiohome">
+        <div class="quadradoesquerdo"><br><br><br><br><br><br><br>
+            <form method="get" action="bancohome.php">
+            Filtros:<br>
+            Masculino:<input type="checkbox" name="masculino"><br>
+            Feminino:<input type="checkbox" name="feminino"><br>
+            Infantil:<input type="checkbox" name="infantil"><br><br>
+            
+            Marca:<br>
+            Nike:<input type="checkbox" name="Nike"><br>
+            Adidas:<input type="checkbox" name="Adidas"><br>
+            Olympikus:<input type="checkbox" name="Olympikus"><br><br>
+
+            Categorias:<br>
+            Calçados:<input type="checkbox" name="calcados"><br>
+            Roupas:<input type="checkbox" name="roupas"><br>
+            Acessórios:<input type="checkbox" name="acessorios"><br><br>
+
+            Tamanho:<br>
+            G:<input type="checkbox" name="G"><br>
+            P:<input type="checkbox" name="P"><br>
+            M:<input type="checkbox" name="M"><br>
+            GG:<input type="checkbox" name="GG"><br><br>
+
+            Cor:<br>
+            Azul:<input type="checkbox" name="azul"><br>
+            Preto:<input type="checkbox" name="preto"><br>
+            Branco:<input type="checkbox" name="branco"><br><br>
+            <input type="submit" name="botaofiltrar" class="botaofiltrar" value="Filtrar"> 
+            </form>
+        </div>
+        <div class="quadradodireito">
+            <div class="quadrado1">
+                <br><br><br>
+                <div class="imagemdentro1">
+                    <img src="fotossite/tenishome1.webp" width="250px" height="250px" class="fotodahome">
+                </div><br>
+                Tênis Preto Nike Masculino<br>
+                R$230.00<br>
+            </div>
+            <div class="quadrado2">
+                <br><br><br>
+                <div class="imagemdentro2">
+                    <img src="fotossite/tenishome2.webp" width="250px" height="250px" class="fotodahome">
+                </div><br>
+                Camiseta Branca Adidas Masculino<br>
+                R$130.00
+            </div>
+            <div class="quadrado3">
+                <br><br><br>
+                <div class="imagemdentro3">
+                    <img src="fotossite/tenishome3.jpg" width="250px" height="250px" class="fotodahome">
+                </div><br>
+                Calçados Preto Olympikus Masculino<br>
+                R$330.00
+            </div>
+            <div class="quadrado4">
+                <br><br><br>
+                <div class="imagemdentro4">    
+                    <img src="fotossite/tenishome4.webp" width="250px" height="250px" class="fotodahome">
+                </div><br>
+                Tênis Azul Nike Feminino<br>
+                R$430.00
+            </div>
+        </div>
+     </div>
+     <div id="rodape">
+       <img src="fotossite/rodape.png" width="400px" height="100px">
+     </div>
+    <div id="extras"><br>
+        Confire a seguir nossos modelos!<br><br>
+        <div class="modelos">
+
+        </div>
+    </div>
+     
+</body>
+</html> 
